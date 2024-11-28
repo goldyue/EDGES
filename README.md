@@ -1,2 +1,4 @@
 # EDGES
 Deduce and denoise spatial gene expression profiles
+EDGES is designed for spatial inference and denoising of spatial transcriptomics (ST) data.
+EDGES obtains multi-dimensional and low-dimensional representations of ST data and single-cell data through multi-objective non-negative matrix factorization, while preserving the spatial patterns in the low-dimensional space. EDGES incorporates spatial information into the objective function optimization, using shared single-cell data as an informational bridge to guide the correct decomposition of spatial and single-cell data. The low-dimensional representations are utilized to reconstruct spatial expression and infer gene expression, facilitating downstream analyses such as the identification of signature genes, gene expression inference, and spatial pattern recognition.
